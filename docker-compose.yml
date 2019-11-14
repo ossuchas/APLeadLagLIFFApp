@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   app:
-    image: docker.io/apthailand/suchat_s:apllliffline_front_v1.0.0
+    image: docker.io/apthailand/suchat_s:apllliffline_front_v1.0.2
     build:
         context: .
         dockerfile: ./Dockerfile
