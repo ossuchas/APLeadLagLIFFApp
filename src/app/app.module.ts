@@ -23,11 +23,15 @@ import {
   MatRadioModule,
   MatSelectModule
 } from '@angular/material';
+import { LeadlagsubbgComponent } from './leadlagsubbg/leadlagsubbg.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LeadlagComponent
+    LeadlagComponent,
+    LeadlagsubbgComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
