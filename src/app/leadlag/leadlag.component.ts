@@ -14,7 +14,7 @@ export class LeadlagComponent implements OnInit {
   selected: string;
 
   favoriteSeason: string;
-  seasons: string[] = ['Year to Date', 'Quarter', 'Week'];
+  seasons: string[] = ['Year to Date', 'Quarter (Current Quarter)', 'Week (last week and current week)'];
 
   products: CrmProduct[] = [
     {ProductID: '10135', Project: '10135: Centro รามอินทรา 109'},
